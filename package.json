@@ -1,0 +1,26 @@
+{
+  "name": "github-contents",
+  "version": "0.0.1",
+  "description": "Get contents from GitHub repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/potomak/github-contents.git"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "api",
+    "contents"
+  ],
+  "author": "Giovanni Cappellotto",
+  "license": "BSD",
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.16.2",
+    "nock": "~0.27.0"
+  }
+}
