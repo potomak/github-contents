@@ -4,10 +4,16 @@ Get contents from GitHub repos using HTTP API.
 
 More details at [http://developer.github.com/v3/repos/contents/](http://developer.github.com/v3/repos/contents/).
 
-## Example usage
+## Install
+
+```sh
+$ npm install github-contents
+```
+
+## Use
 
 ```javascript
-var gc = require('./index.js');
+var gc = require('github-contents');
 
 gc.get('potomak', 'CraftyComponents', 'package.json', function(res) {
   console.log(res.statusCode);
